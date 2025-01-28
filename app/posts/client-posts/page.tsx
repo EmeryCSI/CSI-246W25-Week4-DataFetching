@@ -79,19 +79,19 @@ export default function page() {
         </h3>
         <ul className="space-y-2 text-gray-700">
           <li className="flex items-start">
-            <span className="block">Familiar to React developers</span>
+            <p>Familiar to React developers</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Supports dynamic updates</span>
+            <p>Supports dynamic updates</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Can respond to user interactions</span>
+            <p>Can respond to user interactions</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Requires separate API routes</span>
+            <p>Requires separate API routes</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Initial render doesn't include data</span>
+            <p>Initial render doesn't include data</p>
           </li>
         </ul>
       </div>

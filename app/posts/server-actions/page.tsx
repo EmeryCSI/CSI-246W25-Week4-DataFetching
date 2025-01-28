@@ -25,23 +25,23 @@ export default async function page() {
         </h3>
         <ul className="space-y-2 text-gray-700">
           <li className="flex items-start">
-            <span className="block">No separate API routes needed</span>
+            <p>No separate API routes needed</p>
           </li>
           <li className="flex items-start">
-            <span className="block">
+            <p>
               Works without JavaScript (progressive enhancement)
-            </span>
+            </p>
           </li>
           <li className="flex items-start">
-            <span className="block">Integrates with Next.js cache system</span>
+            <p>Integrates with Next.js cache system</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Optimized for data mutations</span>
+            <p>Optimized for data mutations</p>
           </li>
           <li className="flex items-start">
-            <span className="block">
+            <p>
               Automatic type safety between client and server
-            </span>
+            </p>
           </li>
         </ul>
       </div>

@@ -25,23 +25,19 @@ export default async function page() {
         </h3>
         <ul className="space-y-2 text-gray-700">
           <li className="flex items-start">
-            <span className="block">
-              Data is fetched before the page reaches the client
-            </span>
+            <p>Data is fetched before the page reaches the client</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Excellent for initial page loads</span>
+            <p>Excellent for initial page loads</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Cannot be used for dynamic updates</span>
+            <p>Cannot be used for dynamic updates</p>
           </li>
           <li className="flex items-start">
-            <span className="block">Cannot respond to user interactions</span>
+            <p>Cannot respond to user interactions</p>
           </li>
           <li className="flex items-start">
-            <span className="block">
-              Best for static or slowly changing data
-            </span>
+            <p>Best for static or slowly changing data</p>
           </li>
         </ul>
       </div>
